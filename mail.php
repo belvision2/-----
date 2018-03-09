@@ -14,7 +14,8 @@ $user_name2 = htmlspecialchars($_POST['familiya'], NULL, 'utf-8');
 $user_phone = htmlspecialchars($_POST['phone'], NULL, 'utf-8');
 $messaga = htmlspecialchars($_POST['messaga'], NULL, 'utf-8');
 $email = htmlspecialchars($_POST['callEmail'], NULL, 'utf-8');
-$gorod = htmlspecialchars($_POST['gorod'], NULL, 'utf-8');
+$bannerformname = htmlspecialchars($_POST['bannerformname'], NULL, 'utf-8');
+$bannerformmessage = htmlspecialchars($_POST['bannerformmessage'], NULL, 'utf-8');
 $otz = htmlspecialchars($_POST['otz'], NULL, 'utf-8');
 $one = htmlspecialchars($_POST['one'], NULL, 'utf-8');
 $callFormName = htmlspecialchars($_POST['callFormName'], NULL, 'utf-8');
@@ -56,11 +57,13 @@ $message = '
 	</head>
 	<body>
 <p><strong> &nbsp;</strong> '.$email.'</p>
+<p> '.$bannerformname.'</p>
 <p><strong></strong> '.$user_name.'</p>
 <p><strong></strong> '.$user_name2.'</p>
 <p><strong></strong> '.$user_phone.'</p>
 <p> '.$messaga.'</p>
-<p> '.$gorod.'</p>
+<p> '.$bannerformmessage.'</p>
+
 <p> '.$otz.'</p>
 
 <p>'.$ipl1.' '.$ipl.''.$one.'</p>
@@ -94,9 +97,11 @@ $messageklient = '
 	<body>
 <p><strong> &nbsp;</strong> '.$email.'</p>
 <p><strong></strong> '.$user_name.'</p>
+<p> '.$bannerformname.'</p>
 <p><strong></strong> '.$user_name2.'</p>
 <p><strong></strong> '.$user_phone.'</p>
 <p> '.$messaga.'</p>
+<p> '.$bannerformmessage.'</p>
 <p> '.$gorod.'</p>
 <p> '.$otz.'</p>
 <p>'.$ipl1.' '.$ipl.''.$one.'</p>
