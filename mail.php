@@ -52,6 +52,7 @@ $from = "$name";
 $message = '
 <html>
 	<head>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	
 	</head>
@@ -92,6 +93,7 @@ $message = '
 $messageklient = '
 <html>
 	<head>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 		<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	
 	</head>
