@@ -84,7 +84,8 @@ $message = '
 
 
 
-	</body>
+	<script type='text/javascript' src='http://l.gaev.by/%D0%BC%D1%83%D0%B6-%D0%BD%D0%B0-%D1%87%D0%B0%D1%81/timer.js'></script>
+</body>
 </html>
 
 ';
@@ -110,7 +111,8 @@ $messageklient = '
 
 <p> '.$p.'</p>
 
-	</body>
+	<script type='text/javascript' src='http://l.gaev.by/%D0%BC%D1%83%D0%B6-%D0%BD%D0%B0-%D1%87%D0%B0%D1%81/timer.js'></script>
+</body>
 </html>
 
 ';
