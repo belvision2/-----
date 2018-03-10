@@ -9,7 +9,7 @@
         rubles += parseInt(copecks) / 100;
       }
       var dollars = rubles / course;
-      return 'от ' + dollars.toFixed(2) + ' руб';
+      return 'от ' + dollars.toFixed() + ' руб';
     });
 }
   var x = rublesToDollars($('table').html(), 27.5);
@@ -25,7 +25,7 @@ function rublesToDollars2(str2, course2) {
         rubles2 += parseInt(copecks2) / 100;
       }
       var dollars2 = rubles2 / course2;
-      return 'от ' + dollars2.toFixed(2) + ' руб';
+      return 'от ' + dollars2.toFixed() + ' руб';
     });
 }
   var x2 = rublesToDollars2($('table').html(), 27.5);
